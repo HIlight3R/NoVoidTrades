@@ -1,0 +1,15 @@
+name: ${project.name}
+version: ${project.version}
+description: Plugin that prevents bypassing trade restrictions with villagers
+author: HIlight3R
+
+main: io.github.hilight3r.novoidtrades.NoVoidTrades
+api-version: 1.14
+
+permissions:
+  novoidtrades.*:
+    description: Gives access to all NoVoidTrades permissions
+    children:
+      novoidtrades.bypass: true
+  novoidtrades.bypass:
+    description: Allows you to bypass all plugin restrictions
