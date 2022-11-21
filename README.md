@@ -1,3 +1,6 @@
+### THIS PLUGIN IS NOW USELESS AND WILL NO LONGER BE MAINTAINED
+### JUST USE `allow_void_traiding: false` IN PURPUR CONFIG FILE
+
 # NoVoidTrades
 **"Plugin for the Bukkit/Spigot API that prevents void trades with villagers"**
 
